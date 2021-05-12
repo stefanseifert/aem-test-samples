@@ -78,8 +78,10 @@ public class ReplicationIT {
 
     @Before
     public void before() throws TimeoutException, InterruptedException {
+        /*
         new Polling(this::checkContentDistributionAgentExists)
         	.poll(TIMEOUT, 500);
+        	*/
     }
 
 	/**
